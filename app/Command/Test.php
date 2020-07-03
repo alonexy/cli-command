@@ -27,7 +27,6 @@ class Test extends BaseCommand
         //安装信号触发器器
         pcntl_signal(
             SIGINT, function ($signo) {
-            var_dump($signo);
             switch ($signo) {
                 case SIGUSR1:
                     echo "SIGUSR1 " . date("Y-m-d H:i:s", time()) . PHP_EOL;
