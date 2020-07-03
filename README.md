@@ -48,4 +48,15 @@ Help:
   Test DEsc
 ```
 
+### 解释
+```
+public $commandName = 'test:one {user=1 : 用户ID} {--param2 : 参数2}';
+
+command:xxx {参数=默认值 : 解释} {--选项 : 解释}
+
+# 获取方式
+ $user = $this->argument('user');
+ $param2 = $this->option('param2');
+```
+
 

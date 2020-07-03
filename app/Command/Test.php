@@ -19,7 +19,9 @@ class Test extends BaseCommand
 
     public function handle()
     {
+
         $user = $this->argument('user');
+        $param2 = $this->option('param2');
 
         //设置当前进程信号异步处理
         pcntl_async_signals(true);

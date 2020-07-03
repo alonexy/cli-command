@@ -15,8 +15,6 @@ class BaseCommand extends Command
     public $commandName;
     public $commandDesc;
     protected $name;
-    protected $arguments;
-    protected $options;
     protected $input;
     protected $output;
 
