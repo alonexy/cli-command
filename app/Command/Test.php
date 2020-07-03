@@ -13,7 +13,7 @@ use Swoole\Coroutine as Co;
 class Test extends BaseCommand
 {
 
-    public $commandName = 'test:one {user=1} {--param2}';
+    public $commandName = 'test:one {user=1 : 用户ID} {--param2 : 参数2}';
     public $commandDesc = 'Test DEsc';
 
 

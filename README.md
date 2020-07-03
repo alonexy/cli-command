@@ -32,10 +32,10 @@ Usage:
   test:one [options] [--] [<user>]
 
 Arguments:
-  user                   [default: "1"]
+  user                  用户ID [default: "1"]
 
 Options:
-      --param2
+      --param2          参数2
   -h, --help            Display this help message
   -q, --quiet           Do not output any message
   -V, --version         Display this application version
@@ -46,7 +46,6 @@ Options:
 
 Help:
   Test DEsc
-
 ```
 
 
