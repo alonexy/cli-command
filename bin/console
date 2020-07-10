@@ -9,6 +9,7 @@ $dotenv->load();
 $app = new Application();
 #TIP 命令项
 $commands = [
+    \App\Command\CreateCommand::class,
     \App\Command\Test::class,
 ];
 foreach($commands as $command){
